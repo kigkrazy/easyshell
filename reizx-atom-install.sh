@@ -75,7 +75,7 @@ function install_pkg(){
 #删除所有包
 function clean_pkg(){
 	echo "clean all pkg"
-	rm -rf $q"/*"
+	rm -rf $1"/*"
 }
 cur_dir=(`pwd`)
 echo $cur_dir
