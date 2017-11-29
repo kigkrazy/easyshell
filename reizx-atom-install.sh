@@ -1,6 +1,8 @@
 
 #
-# 请先cd 到atom目录下的packages目录下在执行本脚本
+# 脚本使用说明：
+# 1.复制本脚本到.atom目录下的packages目录下
+# 2.请先cd到.atom目录下的packages目录下在执行本脚本
 #
 # 本脚本所需的插件列表参考：
 # http://www.jianshu.com/p/b4a11ab77f15
@@ -65,11 +67,14 @@ function install_pkg(){
     do  
         dir_or_file=$1"/"$element
         if [ -d $dir_or_file ] ; then 
+			echo "$element installing" 
             cd $element
 			npm install 
+			echo "install $element success!"
 			cd ..
         fi  
     done
+	echo "install all pkg success"
 }
 
 #删除所有包
