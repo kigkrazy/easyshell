@@ -31,10 +31,22 @@ function clone_pkg(){
 	# 会用makefile进行组织，还要继续用这个插件也许有更好的方法。
 	#
 	git clone https://github.com/yasuyuky/autocomplete-clang.git
+	git clone https://github.com/atom-community/autocomplete-paths.git #自动补全路径
+	
+
+	git clone https://github.com/faceair/atom-goto-definition.git #自动补全路径
+	
+	git clone https://github.com/facebook-atom/hyperclick.git #自动补全路径
+	git clone https://github.com/wingyplus/path-hyperclick.git #自动补全路径
+	
+	
+	
 
 	# 具体C++环境语法检测
 	git clone https://github.com/hebaishi/linter-gcc.git
+	
 
+	
 
 	# 选择高亮
 	git clone https://github.com/richrace/highlight-selected.git
