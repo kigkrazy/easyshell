@@ -36,8 +36,8 @@ function clone_pkg(){
 
 	git clone https://github.com/faceair/atom-goto-definition.git #自动补全路径
 	
-	git clone https://github.com/facebook-atom/hyperclick.git #自动补全路径
-	git clone https://github.com/wingyplus/path-hyperclick.git #自动补全路径
+	git clone https://github.com/facebook-atom/hyperclick.git 
+	git clone https://github.com/wingyplus/path-hyperclick.git 
 	
 	
 	
